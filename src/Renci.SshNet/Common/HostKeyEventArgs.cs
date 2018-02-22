@@ -9,6 +9,8 @@ namespace Renci.SshNet.Common
     /// </summary>
     public class HostKeyEventArgs : EventArgs
     {
+        private byte[] _fingerPrint;
+
         /// <summary>
         /// Gets or sets a value indicating whether host key can be trusted.
         /// </summary>
@@ -30,7 +32,20 @@ namespace Renci.SshNet.Common
         /// <summary>
         /// Gets the finger print.
         /// </summary>
-        public byte[] FingerPrint { get; private set; }
+        public byte[] FingerPrint
+        {
+            get
+            {
+                if (_fingerPrint == null)
+                {
+                    using (var md5 = CryptoAbstraction.CreateMD5())
+                    {
+                        _fingerPrint = md5.ComputeHash(HostKey);
+                    }
+                }
+                return _fingerPrint;
+            }
+        }
 
         /// <summary>
         /// Gets the length of the key in bits.
@@ -53,11 +68,6 @@ namespace Renci.SshNet.Common
             HostKeyName = host.Name;
 
             KeyLength = host.Key.KeyLength;
-
-            using (var md5 = CryptoAbstraction.CreateMD5())
-            {
-                FingerPrint = md5.ComputeHash(host.Data);
-            }
         }
     }
 }
