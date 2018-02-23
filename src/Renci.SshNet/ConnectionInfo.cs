@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Security.Cryptography;
 using Renci.SshNet.Abstractions;
 using Renci.SshNet.Security;
 using Renci.SshNet.Messages.Connection;
@@ -476,6 +477,56 @@ namespace Renci.SshNet
         IList<IAuthenticationMethod> IConnectionInfoInternal.AuthenticationMethods
         {
             get { return AuthenticationMethods.Cast<IAuthenticationMethod>().ToList(); }
+        }
+
+        /// <summary>
+        /// Limit the used algorithms to those allowed by FIPS.
+        /// </summary>
+        public void UseFipsMode()
+        {
+            // 3des-cbc should be okay but the current implementation calls md5 which will fail on a FIPS enabled machine
+            var encryptionAlgorithms = new[] {"aes256-cbc", "aes192-cbc", "aes128-cbc", "3des-cbc"};
+            var hmacAlgorithms = new[] {"hmac-sha2-256", "hmac-sha2-512", "hmac-sha1"};
+            var hostKeyAlgorithms = new[] {"ssh-dss", "ssh-rsa"};
+            var kexAlgorithms = new[]
+            {
+                "diffie-hellman-group-exchange-sha256",
+                "diffie-hellman-group-exchange-sha1",
+                "diffie-hellman-group14-sha1",
+                "diffie-hellman-group1-sha1"
+            };
+
+            foreach (var key in Encryptions.Keys.ToArray())
+            {
+                if (!encryptionAlgorithms.Contains(key))
+                {
+                    Encryptions.Remove(key);
+                }
+            }
+
+            foreach (var key in HmacAlgorithms.Keys.ToArray())
+            {
+                if (!hmacAlgorithms.Contains(key))
+                {
+                    HmacAlgorithms.Remove(key);
+                }
+            }
+
+            foreach (var key in HostKeyAlgorithms.Keys.ToArray())
+            {
+                if (!hostKeyAlgorithms.Contains(key))
+                {
+                    HostKeyAlgorithms.Remove(key);
+                }
+            }
+
+            foreach (var key in KeyExchangeAlgorithms.Keys.ToArray())
+            {
+                if (!kexAlgorithms.Contains(key))
+                {
+                    KeyExchangeAlgorithms.Remove(key);
+                }
+            }
         }
     }
 }
