@@ -56,9 +56,9 @@ namespace Renci.SshNet.Abstractions
 #endif // FEATURE_RNG_CREATE || FEATURE_RNG_CSP
 
 #if FEATURE_HASH_MD5
-        public static System.Security.Cryptography.MD5 CreateMD5()
+        public static MD5 CreateMD5()
         {
-            return System.Security.Cryptography.MD5.Create();
+            return new MD5();
         }
 #else
         public static global::SshNet.Security.Cryptography.MD5 CreateMD5()
