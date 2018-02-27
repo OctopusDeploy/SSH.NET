@@ -31,10 +31,11 @@ Setup(context =>
         OutputType = GitVersionOutput.Json
     });
 
-    if(BuildSystem.IsRunningOnTeamCity)
-        BuildSystem.TeamCity.SetBuildNumber(gitVersionInfo.NuGetVersion);
+    // This seems to work better when off master than just NugetVersion.
+    nugetVersion = gitVersionInfo.MajorMinorPatch + "-" + gitVersionInfo.PreReleaseLabel + gitVersionInfo.CommitsSinceVersionSourcePadded;
 
-    nugetVersion = gitVersionInfo.NuGetVersion;
+    if(BuildSystem.IsRunningOnTeamCity)
+        BuildSystem.TeamCity.SetBuildNumber(nugetVersion);
 
     Information("Building SSH.NET v{0}", nugetVersion);
     Information("Informational Version {0}", gitVersionInfo.InformationalVersion);
