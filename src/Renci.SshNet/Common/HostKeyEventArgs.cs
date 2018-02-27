@@ -11,6 +11,8 @@ namespace Renci.SshNet.Common
     {
         private byte[] _fingerPrint;
 
+        private byte[] _fingerPrintSha256;
+
         /// <summary>
         /// Gets or sets a value indicating whether host key can be trusted.
         /// </summary>
@@ -44,6 +46,24 @@ namespace Renci.SshNet.Common
                     }
                 }
                 return _fingerPrint;
+            }
+        }
+
+        /// <summary>
+        /// Gets the SHA256 finger print.
+        /// </summary>
+        public byte[] FingerPrintSHA256
+        {
+            get
+            {
+                if (_fingerPrintSha256 == null)
+                {
+                    using (var sha = CryptoAbstraction.CreateSHA256())
+                    {
+                        _fingerPrintSha256 = sha.ComputeHash(HostKey);
+                    }
+                }
+                return _fingerPrintSha256;
             }
         }
 
