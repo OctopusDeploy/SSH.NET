@@ -484,8 +484,7 @@ namespace Renci.SshNet
         /// </summary>
         public void UseFipsMode()
         {
-            // 3des-cbc should be okay but the current implementation calls md5 which will fail on a FIPS enabled machine
-            var encryptionAlgorithms = new[] {"aes256-cbc", "aes192-cbc", "aes128-cbc", "3des-cbc"};
+            var encryptionAlgorithms = new[] { "aes256-ctr", "aes256-cbc", "aes192-cbc", "aes128-cbc", "3des-cbc"};
             var hmacAlgorithms = new[] {"hmac-sha2-256", "hmac-sha2-512", "hmac-sha1"};
             var hostKeyAlgorithms = new[] {"ssh-dss", "ssh-rsa"};
             var kexAlgorithms = new[]
