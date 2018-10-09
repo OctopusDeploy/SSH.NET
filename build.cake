@@ -5,18 +5,20 @@
 #addin "Cake.FileHelpers"
 #addin "Cake.ExtendedNuGet"
 
+using Path = System.IO.Path;
+
 //////////////////////////////////////////////////////////////////////
 // ARGUMENTS
 //////////////////////////////////////////////////////////////////////
 var target = Argument("target", "Default");
 var configuration = Argument("configuration", "Release");
 var solutionFile = "./src/Renci.SshNet.VS2017.sln";
-var projectFile = "./src/Renci.SshNet/Renci.SshNet.csproj";
 
 ///////////////////////////////////////////////////////////////////////////////
 // GLOBAL VARIABLES
 ///////////////////////////////////////////////////////////////////////////////
 var artifactsDir = "./build/target/";
+var tempDir = "./build/temp";
 
 GitVersion gitVersionInfo;
 string nugetVersion;
@@ -54,6 +56,7 @@ Task("Clean")
     .Does(() =>
 {
     CleanDirectory(artifactsDir);
+	CleanDirectory(tempDir);
     CleanDirectories("./src/**/bin");
     CleanDirectories("./src/**/obj");
     CleanDirectories("./src/**/TestResults");
@@ -71,14 +74,28 @@ Task("Build")
     .IsDependentOn("Clean")
     .Does(() =>
     {
-        MSBuild(projectFile, settings => settings
+        MSBuild("./src/Renci.SshNet/Renci.SshNet.csproj", settings => settings
+			.SetConfiguration(configuration)
+            .WithProperty("Version", nugetVersion)
+			.WithTarget("Build"));
+			
+		MSBuild("./src/Renci.SshNet.NETCore/Renci.SshNet.NETCore.csproj", settings => settings
 			.SetConfiguration(configuration)
             .WithProperty("Version", nugetVersion)
 			.WithTarget("Build"));
     });
 
+Task("Stage")
+	.IsDependentOn("Build")
+	.Does(() => {
+		CreateDirectory(Path.Combine(tempDir, "lib/net40"));
+		CreateDirectory(Path.Combine(tempDir, "lib/netstandard2.0"));
+		CopyFiles("./src/Renci.SshNet/bin/Release/*", Path.Combine(tempDir, "lib/net40"));
+		CopyFiles("./src/Renci.SshNet.NETCore/bin/Release/netstandard2.0/*", Path.Combine(tempDir, "lib/netstandard2.0"));
+	});
+	
 Task("Pack")
-    .IsDependentOn("Build")
+    .IsDependentOn("Stage")
     .Does(() =>
     {
         NuGetPack(new NuGetPackSettings
@@ -98,9 +115,9 @@ Task("Pack")
                 Symbols                 = false,
                 NoPackageAnalysis       = true,
                 Files                   = new [] {
-                                            new NuSpecContent {Source = "**", Target = "lib/net40"},
+                                            new NuSpecContent {Source = "*/**"},
                                         },
-                BasePath                = "./src/Renci.SshNet/bin/Release",
+                BasePath                = tempDir,
                 OutputDirectory         = artifactsDir
             });
     });

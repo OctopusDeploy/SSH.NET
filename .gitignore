@@ -22,6 +22,7 @@ project.lock.json
 
 # Build outputs
 build/target/
+build/temp/
 tools/*
 
 # Include the cake packages.config
