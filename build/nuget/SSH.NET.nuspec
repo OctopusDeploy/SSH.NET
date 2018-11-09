@@ -4,10 +4,10 @@
         <id>SSH.NET</id>
         <version>$version$</version>
         <title>SSH.NET</title>
-        <authors>Renci</authors>
+        <authors>Renci, Octopus Deploy</authors>
         <owners>olegkap,drieseng</owners>
-        <licenseUrl>https://github.com/sshnet/SSH.NET/blob/master/LICENSE</licenseUrl>
-        <projectUrl>https://github.com/sshnet/SSH.NET/</projectUrl>
+        <licenseUrl>https://github.com/OctopusDeploy/SSH.NET/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/OctopusDeploy/SSH.NET/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism and with broad framework support.</description>
         <releaseNotes>https://github.com/sshnet/SSH.NET/releases/tag/$version$</releaseNotes>
