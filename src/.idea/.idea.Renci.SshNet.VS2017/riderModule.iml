@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../Build/build.cmd" />
+    <content url="file://$MODULE_DIR$/../../../build/build.proj" />
+    <content url="file://$MODULE_DIR$/../../../build/nuget/SSH.NET.nuspec" />
+    <content url="file://$MODULE_DIR$/../../../build/sandcastle/SSH.NET.shfbproj" />
+    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/Abstractions/CryptoAbstraction_GenerateRandom.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/Abstractions/DnsAbstraction_GetHostAddresses.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/Abstractions/FileSystemAbstraction_EnumerateFiles.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/Abstractions/ThreadAbstraction_ExecuteThread.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/ForwardedPortStatusTest_Started.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/ForwardedPortStatusTest_Starting.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/ForwardedPortStatusTest_Stopped.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/ForwardedPortStatusTest_Stopping.cs" />
+    <content url="file://$MODULE_DIR$/../../../test/Renci.SshNet.Shared.Tests/SshMessageFactoryTest.cs" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

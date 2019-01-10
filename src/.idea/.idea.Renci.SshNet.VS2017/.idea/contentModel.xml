@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Development\Octopus\SSH.NET\Build\build.cmd" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\Build\build.proj" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\Build\nuget\SSH.NET.nuspec" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\Build\sandcastle\SSH.NET.shfbproj" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\packages" t="ExcludeRecursive" />
+    <e p="C:\Development\Octopus\SSH.NET\src" t="IncludeFlat">
+      <e p="Build" t="Include">
+        <e p="nuget" t="Include" />
+        <e p="sandcastle" t="Include" />
+      </e>
+      <e p="Renci.SshNet" t="IncludeRecursive">
+        <e p="Abstractions" t="Include">
+          <e p="CryptoAbstraction.cs" t="Include" />
+          <e p="DiagnosticAbstraction.cs" t="Include" />
+          <e p="DnsAbstraction.cs" t="Include" />
+          <e p="FileSystemAbstraction.cs" t="Include" />
+          <e p="ReflectionAbstraction.cs" t="Include" />
+          <e p="SocketAbstraction.cs" t="Include" />
+          <e p="ThreadAbstraction.cs" t="Include" />
+        </e>
+        <e p="AuthenticationMethod.cs" t="Include" />
+        <e p="AuthenticationResult.cs" t="Include" />
+        <e p="BaseClient.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Channels" t="Include">
+          <e p="Channel.cs" t="Include" />
+          <e p="ChannelDirectTcpip.cs" t="Include" />
+          <e p="ChannelForwardedTcpip.cs" t="Include" />
+          <e p="ChannelSession.cs" t="Include" />
+          <e p="ChannelTypes.cs" t="Include" />
+          <e p="ClientChannel.cs" t="Include" />
+          <e p="IChannel.cs" t="Include" />
+          <e p="IChannelDirectTcpip.cs" t="Include" />
+          <e p="IChannelForwardedTcpip.cs" t="Include" />
+          <e p="IChannelSession.cs" t="Include" />
+          <e p="ServerChannel.cs" t="Include" />
+        </e>
+        <e p="CipherInfo.cs" t="Include" />
+        <e p="ClientAuthentication.cs" t="Include" />
+        <e p="CommandAsyncResult.cs" t="Include" />
+        <e p="Common" t="Include">
+          <e p="Array.cs" t="Include" />
+          <e p="ASCIIEncoding.cs" t="Include" />
+          <e p="AsyncResult.cs" t="Include" />
+          <e p="AuthenticationBannerEventArgs.cs" t="Include" />
+          <e p="AuthenticationEventArgs.cs" t="Include" />
+          <e p="AuthenticationPasswordChangeEventArgs.cs" t="Include" />
+          <e p="AuthenticationPrompt.cs" t="Include" />
+          <e p="AuthenticationPromptEventArgs.cs" t="Include" />
+          <e p="BigInteger.cs" t="Include" />
+          <e p="ChannelDataEventArgs.cs" t="Include" />
+          <e p="ChannelEventArgs.cs" t="Include" />
+          <e p="ChannelExtendedDataEventArgs.cs" t="Include" />
+          <e p="ChannelOpenConfirmedEventArgs.cs" t="Include" />
+          <e p="ChannelOpenFailedEventArgs.cs" t="Include" />
+          <e p="ChannelRequestEventArgs.cs" t="Include" />
+          <e p="CountdownEvent.cs" t="Include" />
+          <e p="DerData.cs" t="Include" />
+          <e p="ExceptionEventArgs.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="HostKeyEventArgs.cs" t="Include" />
+          <e p="NetConfServerException.cs" t="Include" />
+          <e p="ObjectIdentifier.cs" t="Include" />
+          <e p="Pack.cs" t="Include" />
+          <e p="PipeStream.cs" t="Include" />
+          <e p="PortForwardEventArgs.cs" t="Include" />
+          <e p="PosixPath.cs" t="Include" />
+          <e p="ProxyException.cs" t="Include" />
+          <e p="ScpDownloadEventArgs.cs" t="Include" />
+          <e p="ScpException.cs" t="Include" />
+          <e p="ScpUploadEventArgs.cs" t="Include" />
+          <e p="SemaphoreLight.cs" t="Include" />
+          <e p="SftpPathNotFoundException.cs" t="Include" />
+          <e p="SftpPermissionDeniedException.cs" t="Include" />
+          <e p="ShellDataEventArgs.cs" t="Include" />
+          <e p="SshAuthenticationException.cs" t="Include" />
+          <e p="SshConnectionException.cs" t="Include" />
+          <e p="SshData.cs" t="Include" />
+          <e p="SshDataStream.cs" t="Include" />
+          <e p="SshException.cs" t="Include" />
+          <e p="SshOperationTimeoutException.cs" t="Include" />
+          <e p="SshPassPhraseNullOrEmptyException.cs" t="Include" />
+          <e p="TerminalModes.cs" t="Include" />
+        </e>
+        <e p="Compression" t="Include">
+          <e p="CompressionMode.cs" t="Include" />
+          <e p="Compressor.cs" t="Include" />
+          <e p="Zlib.cs" t="Include" />
+          <e p="ZlibOpenSsh.cs" t="Include" />
+          <e p="ZlibStream.cs" t="Include" />
+        </e>
+        <e p="ConnectionInfo.cs" t="Include" />
+        <e p="Documentation" t="Include">
+          <e p="Renci.SshNet.content" t="Include" />
+          <e p="SshNet.shfbproj" t="Include" />
+        </e>
+        <e p="ExpectAction.cs" t="Include" />
+        <e p="ExpectAsyncResult.cs" t="Include" />
+        <e p="ForwardedPort.cs" t="Include" />
+        <e p="ForwardedPortDynamic.cs" t="Include" />
+        <e p="ForwardedPortDynamic.NET.cs" t="Include" />
+        <e p="ForwardedPortLocal.cs" t="Include" />
+        <e p="ForwardedPortLocal.NET.cs" t="Include" />
+        <e p="ForwardedPortRemote.cs" t="Include" />
+        <e p="ForwardedPortStatus.cs" t="Include" />
+        <e p="HashInfo.cs" t="Include" />
+        <e p="IAuthenticationMethod.cs" t="Include" />
+        <e p="IClientAuthentication.cs" t="Include" />
+        <e p="IConnectionInfo.cs" t="Include" />
+        <e p="IForwardedPort.cs" t="Include" />
+        <e p="IRemotePathTransformation.cs" t="Include" />
+        <e p="IServiceFactory.cs" t="Include" />
+        <e p="IServiceFactory.NET.cs" t="Include" />
+        <e p="ISession.cs" t="Include" />
+        <e p="ISubsystemSession.cs" t="Include" />
+        <e p="KeyboardInteractiveAuthenticationMethod.cs" t="Include" />
+        <e p="KeyboardInteractiveConnectionInfo.cs" t="Include" />
+        <e p="MessageEventArgs.cs" t="Include" />
+        <e p="Messages" t="Include">
+          <e p="Authentication" t="Include">
+            <e p="BannerMessage.cs" t="Include" />
+            <e p="FailureMessage.cs" t="Include" />
+            <e p="InformationRequestMessage.cs" t="Include" />
+            <e p="InformationResponseMessage.cs" t="Include" />
+            <e p="PasswordChangeRequiredMessage.cs" t="Include" />
+            <e p="PublicKeyMessage.cs" t="Include" />
+            <e p="RequestMessage.cs" t="Include" />
+            <e p="RequestMessageHost.cs" t="Include" />
+            <e p="RequestMessageKeyboardInteractive.cs" t="Include" />
+            <e p="RequestMessageNone.cs" t="Include" />
+            <e p="RequestMessagePassword.cs" t="Include" />
+            <e p="RequestMessagePublicKey.cs" t="Include" />
+            <e p="SuccessMessage.cs" t="Include" />
+          </e>
+          <e p="Connection" t="Include">
+            <e p="CancelTcpIpForwardGlobalRequestMessage.cs" t="Include" />
+            <e p="ChannelCloseMessage.cs" t="Include" />
+            <e p="ChannelDataMessage.cs" t="Include" />
+            <e p="ChannelEofMessage.cs" t="Include" />
+            <e p="ChannelExtendedDataMessage.cs" t="Include" />
+            <e p="ChannelFailureMessage.cs" t="Include" />
+            <e p="ChannelMessage.cs" t="Include" />
+            <e p="ChannelOpen" t="Include">
+              <e p="ChannelOpenInfo.cs" t="Include" />
+              <e p="ChannelOpenMessage.cs" t="Include" />
+              <e p="DirectTcpipChannelInfo.cs" t="Include" />
+              <e p="ForwardedTcpipChannelInfo.cs" t="Include" />
+              <e p="SessionChannelOpenInfo.cs" t="Include" />
+              <e p="X11ChannelOpenInfo.cs" t="Include" />
+            </e>
+            <e p="ChannelOpenConfirmationMessage.cs" t="Include" />
+            <e p="ChannelOpenFailureMessage.cs" t="Include" />
+            <e p="ChannelOpenFailureReasons.cs" t="Include" />
+            <e p="ChannelRequest" t="Include">
+              <e p="BreakRequestInfo.cs" t="Include" />
+              <e p="ChannelRequestMessage.cs" t="Include" />
+              <e p="EndOfWriteRequestInfo.cs" t="Include" />
+              <e p="EnvironmentVariableRequestInfo.cs" t="Include" />
+              <e p="ExecRequestInfo.cs" t="Include" />
+              <e p="ExitSignalRequestInfo.cs" t="Include" />
+              <e p="ExitStatusRequestInfo.cs" t="Include" />
+              <e p="KeepAliveRequestInfo.cs" t="Include" />
+              <e p="PseudoTerminalInfo.cs" t="Include" />
+              <e p="RequestInfo.cs" t="Include" />
+              <e p="ShellRequestInfo.cs" t="Include" />
+              <e p="SignalRequestInfo.cs" t="Include" />
+              <e p="SubsystemRequestInfo.cs" t="Include" />
+              <e p="WindowChangeRequestInfo.cs" t="Include" />
+              <e p="X11ForwardingRequestInfo.cs" t="Include" />
+              <e p="XonXoffRequestInfo.cs" t="Include" />
+            </e>
+            <e p="ChannelSuccessMessage.cs" t="Include" />
+            <e p="ChannelWindowAdjustMessage.cs" t="Include" />
+            <e p="GlobalRequestMessage.cs" t="Include" />
+            <e p="GlobalRequestName.cs" t="Include" />
+            <e p="RequestFailureMessage.cs" t="Include" />
+            <e p="RequestSuccessMessage.cs" t="Include" />
+            <e p="TcpIpForwardGlobalRequestMessage.cs" t="Include" />
+          </e>
+          <e p="Message.cs" t="Include" />
+          <e p="MessageAttribute.cs" t="Include" />
+          <e p="ServiceName.cs" t="Include" />
+          <e p="Transport" t="Include">
+            <e p="DebugMessage.cs" t="Include" />
+            <e p="DisconnectMessage.cs" t="Include" />
+            <e p="DisconnectReason.cs" t="Include" />
+            <e p="IgnoreMessage.cs" t="Include" />
+            <e p="IKeyExchangedAllowed.cs" t="Include" />
+            <e p="KeyExchangeDhGroupExchangeGroup.cs" t="Include" />
+            <e p="KeyExchangeDhGroupExchangeInit.cs" t="Include" />
+            <e p="KeyExchangeDhGroupExchangeReply.cs" t="Include" />
+            <e p="KeyExchangeDhGroupExchangeRequest.cs" t="Include" />
+            <e p="KeyExchangeDhInitMessage.cs" t="Include" />
+            <e p="KeyExchangeDhReplyMessage.cs" t="Include" />
+            <e p="KeyExchangeEcdhInitMessage.cs" t="Include" />
+            <e p="KeyExchangeEcdhReplyMessage.cs" t="Include" />
+            <e p="KeyExchangeInitMessage.cs" t="Include" />
+            <e p="NewKeysMessage.cs" t="Include" />
+            <e p="ServiceAcceptMessage.cs" t="Include" />
+            <e p="ServiceRequestMessage.cs" t="Include" />
+            <e p="UnimplementedMessage.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Netconf" t="Include">
+          <e p="INetConfSession.cs" t="Include" />
+          <e p="NetConfSession.cs" t="Include" />
+        </e>
+        <e p="NetConfClient.cs" t="Include" />
+        <e p="NoneAuthenticationMethod.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PasswordAuthenticationMethod.cs" t="Include" />
+        <e p="PasswordConnectionInfo.cs" t="Include" />
+        <e p="PrivateKeyAuthenticationMethod.cs" t="Include" />
+        <e p="PrivateKeyConnectionInfo.cs" t="Include" />
+        <e p="PrivateKeyFile.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="CommonAssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ProxyTypes.cs" t="Include" />
+        <e p="RemotePathDoubleQuoteTransformation.cs" t="Include" />
+        <e p="RemotePathNoneTransformation.cs" t="Include" />
+        <e p="RemotePathShellQuoteTransformation.cs" t="Include" />
+        <e p="RemotePathTransformation.cs" t="Include" />
+        <e p="Renci.SshNet.csproj" t="IncludeRecursive" />
+        <e p="ScpClient.cs" t="Include" />
+        <e p="ScpClient.NET.cs" t="Include" />
+        <e p="Security" t="Include">
+          <e p="Algorithm.cs" t="Include" />
+          <e p="CertificateHostAlgorithm.cs" t="Include" />
+          <e p="Cryptography" t="Include">
+            <e p="AsymmetricCipher.cs" t="Include" />
+            <e p="BlockCipher.cs" t="Include" />
+            <e p="Cipher.cs" t="Include" />
+            <e p="CipherDigitalSignature.cs" t="Include" />
+            <e p="Ciphers" t="Include">
+              <e p="AesCipher.cs" t="Include" />
+              <e p="Arc4Cipher.cs" t="Include" />
+              <e p="BlowfishCipher.cs" t="Include" />
+              <e p="CastCipher.cs" t="Include" />
+              <e p="CipherMode.cs" t="Include" />
+              <e p="CipherPadding.cs" t="Include" />
+              <e p="DesCipher.cs" t="Include" />
+              <e p="Modes" t="Include">
+                <e p="CbcCipherMode.cs" t="Include" />
+                <e p="CfbCipherMode.cs" t="Include" />
+                <e p="CtrCipherMode.cs" t="Include" />
+                <e p="OfbCipherMode.cs" t="Include" />
+              </e>
+              <e p="Paddings" t="Include">
+                <e p="PKCS5Padding.cs" t="Include" />
+                <e p="PKCS7Padding.cs" t="Include" />
+              </e>
+              <e p="RsaCipher.cs" t="Include" />
+              <e p="SerpentCipher.cs" t="Include" />
+              <e p="TripleDesCipher.cs" t="Include" />
+              <e p="TwofishCipher.cs" t="Include" />
+            </e>
+            <e p="DigitalSignature.cs" t="Include" />
+            <e p="DsaDigitalSignature.cs" t="Include" />
+            <e p="DsaKey.cs" t="Include" />
+            <e p="HMACMD5.cs" t="Include" />
+            <e p="HMACSHA1.cs" t="Include" />
+            <e p="HMACSHA256.cs" t="Include" />
+            <e p="HMACSHA384.cs" t="Include" />
+            <e p="HMACSHA512.cs" t="Include" />
+            <e p="InternalMD5" t="Include">
+              <e p="HashAlgorithm.cs" t="Include" />
+              <e p="HashProviderBase.cs" t="Include" />
+              <e p="IHashProvider.cs" t="Include" />
+              <e p="MD5HashProvider.cs" t="Include" />
+            </e>
+            <e p="Key.cs" t="Include" />
+            <e p="MD5.cs" t="Include" />
+            <e p="RsaDigitalSignature.cs" t="Include" />
+            <e p="RsaKey.cs" t="Include" />
+            <e p="StreamCipher.cs" t="Include" />
+            <e p="SymmetricCipher.cs" t="Include" />
+          </e>
+          <e p="GroupExchangeHashData.cs" t="Include" />
+          <e p="HostAlgorithm.cs" t="Include" />
+          <e p="IKeyExchange.cs" t="Include" />
+          <e p="KeyExchange.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellman.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellmanGroup14Sha1.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellmanGroup1Sha1.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellmanGroupExchangeSha1.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellmanGroupExchangeSha256.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellmanGroupExchangeShaBase.cs" t="Include" />
+          <e p="KeyExchangeDiffieHellmanGroupSha1.cs" t="Include" />
+          <e p="KeyHostAlgorithm.cs" t="Include" />
+        </e>
+        <e p="ServiceFactory.cs" t="Include" />
+        <e p="ServiceFactory.NET.cs" t="Include" />
+        <e p="Session.cs" t="Include" />
+        <e p="Sftp" t="Include">
+          <e p="Flags.cs" t="Include" />
+          <e p="ISftpFileReader.cs" t="Include" />
+          <e p="ISftpResponseFactory.cs" t="Include" />
+          <e p="ISftpSession.cs" t="Include" />
+          <e p="Requests" t="Include">
+            <e p="ExtendedRequests" t="Include">
+              <e p="FStatVfsRequest.cs" t="Include" />
+              <e p="HardLinkRequest.cs" t="Include" />
+              <e p="PosixRenameRequest.cs" t="Include" />
+              <e p="StatVfsRequest.cs" t="Include" />
+            </e>
+            <e p="SftpBlockRequest.cs" t="Include" />
+            <e p="SftpCloseRequest.cs" t="Include" />
+            <e p="SftpExtendedRequest.cs" t="Include" />
+            <e p="SftpFSetStatRequest.cs" t="Include" />
+            <e p="SftpFStatRequest.cs" t="Include" />
+            <e p="SftpInitRequest.cs" t="Include" />
+            <e p="SftpLinkRequest.cs" t="Include" />
+            <e p="SftpLStatRequest.cs" t="Include" />
+            <e p="SftpMkDirRequest.cs" t="Include" />
+            <e p="SftpOpenDirRequest.cs" t="Include" />
+            <e p="SftpOpenRequest.cs" t="Include" />
+            <e p="SftpReadDirRequest.cs" t="Include" />
+            <e p="SftpReadLinkRequest.cs" t="Include" />
+            <e p="SftpReadRequest.cs" t="Include" />
+            <e p="SftpRealPathRequest.cs" t="Include" />
+            <e p="SftpRemoveRequest.cs" t="Include" />
+            <e p="SftpRenameRequest.cs" t="Include" />
+            <e p="SftpRequest.cs" t="Include" />
+            <e p="SftpRmDirRequest.cs" t="Include" />
+            <e p="SftpSetStatRequest.cs" t="Include" />
+            <e p="SftpStatRequest.cs" t="Include" />
+            <e p="SftpSymLinkRequest.cs" t="Include" />
+            <e p="SftpUnblockRequest.cs" t="Include" />
+            <e p="SftpWriteRequest.cs" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="ExtendedReplies" t="Include">
+              <e p="ExtendedReplyInfo.cs" t="Include" />
+              <e p="StatVfsReplyInfo.cs" t="Include" />
+            </e>
+            <e p="SftpAttrsResponse.cs" t="Include" />
+            <e p="SftpDataResponse.cs" t="Include" />
+            <e p="SftpExtendedReplyResponse.cs" t="Include" />
+            <e p="SftpHandleResponse.cs" t="Include" />
+            <e p="SftpNameResponse.cs" t="Include" />
+            <e p="SftpResponse.cs" t="Include" />
+            <e p="SftpStatusResponse.cs" t="Include" />
+            <e p="SftpVersionResponse.cs" t="Include" />
+          </e>
+          <e p="SftpCloseAsyncResult.cs" t="Include" />
+          <e p="SftpDownloadAsyncResult.cs" t="Include" />
+          <e p="SftpFile.cs" t="Include" />
+          <e p="SftpFileAttributes.cs" t="Include" />
+          <e p="SftpFileReader.cs" t="Include" />
+          <e p="SftpFileStream.cs" t="Include" />
+          <e p="SftpFileSystemInformation.cs" t="Include" />
+          <e p="SftpListDirectoryAsyncResult.cs" t="Include" />
+          <e p="SftpMessage.cs" t="Include" />
+          <e p="SftpMessageTypes.cs" t="Include" />
+          <e p="SftpOpenAsyncResult.cs" t="Include" />
+          <e p="SftpReadAsyncResult.cs" t="Include" />
+          <e p="SftpRealPathAsyncResult.cs" t="Include" />
+          <e p="SftpResponseFactory.cs" t="Include" />
+          <e p="SftpSession.cs" t="Include" />
+          <e p="SFtpStatAsyncResult.cs" t="Include" />
+          <e p="SftpSynchronizeDirectoriesAsyncResult.cs" t="Include" />
+          <e p="SftpUploadAsyncResult.cs" t="Include" />
+          <e p="StatusCodes.cs" t="Include" />
+        </e>
+        <e p="SftpClient.cs" t="Include" />
+        <e p="Shell.cs" t="Include" />
+        <e p="ShellStream.cs" t="Include" />
+        <e p="SshClient.cs" t="Include" />
+        <e p="SshCommand.cs" t="Include" />
+        <e p="SshMessageFactory.cs" t="Include" />
+        <e p="SubsystemSession.cs" t="Include" />
+      </e>
+      <e p="Renci.SshNet.NET35" t="IncludeRecursive">
+        <e p="Abstractions" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Channels" t="Include" />
+        <e p="Common" t="Include">
+          <e p="Extensions.NET35.cs" t="Include" />
+        </e>
+        <e p="Compression" t="Include" />
+        <e p="Messages" t="Include">
+          <e p="Authentication" t="Include" />
+          <e p="Connection" t="Include">
+            <e p="ChannelOpen" t="Include" />
+            <e p="ChannelRequest" t="Include" />
+          </e>
+          <e p="Transport" t="Include" />
+        </e>
+        <e p="Netconf" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Renci.SshNet.NET35.csproj" t="IncludeRecursive" />
+        <e p="Security" t="Include">
+          <e p="Cryptography" t="Include">
+            <e p="Ciphers" t="Include">
+              <e p="Modes" t="Include" />
+              <e p="Paddings" t="Include" />
+            </e>
+          </e>
+          <e p="InternalMD5" t="Include" />
+        </e>
+        <e p="Sftp" t="Include">
+          <e p="Requests" t="Include">
+            <e p="ExtendedRequests" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="ExtendedReplies" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Renci.SshNet.NETCore" t="IncludeRecursive">
+        <e p="Abstractions" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Channels" t="Include" />
+        <e p="Common" t="Include" />
+        <e p="Compression" t="Include" />
+        <e p="Messages" t="Include">
+          <e p="Authentication" t="Include" />
+          <e p="Connection" t="Include">
+            <e p="ChannelOpen" t="Include" />
+            <e p="ChannelRequest" t="Include" />
+          </e>
+          <e p="Transport" t="Include" />
+        </e>
+        <e p="Netconf" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Renci.SshNet.NETCore.csproj" t="IncludeRecursive" />
+        <e p="Security" t="Include">
+          <e p="Cryptography" t="Include">
+            <e p="Ciphers" t="Include">
+              <e p="Modes" t="Include" />
+              <e p="Paddings" t="Include" />
+            </e>
+            <e p="InternalMD5" t="Include" />
+          </e>
+        </e>
+        <e p="Sftp" t="Include">
+          <e p="Requests" t="Include">
+            <e p="ExtendedRequests" t="Include" />
+          </e>
+          <e p="Responses" t="Include">
+            <e p="ExtendedReplies" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Renci.SshNet.snk" t="Include" />
+      <e p="Renci.SshNet.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Classes" t="Include">
+          <e p="Abstractions" t="Include" />
+          <e p="BaseClientTest_Connect_OnConnectedThrowsException.cs" t="Include" />
+          <e p="BaseClientTest_Connected_KeepAliveInterval_NegativeOne.cs" t="Include" />
+          <e p="BaseClientTest_Connected_KeepAliveInterval_NotNegativeOne.cs" t="Include" />
+          <e p="BaseClientTest_Connected_KeepAlivesNotSentConcurrently.cs" t="Include" />
+          <e p="BaseClientTest_Disconnected_KeepAliveInterval_NotNegativeOne.cs" t="Include" />
+          <e p="BaseClientTest_NotConnected_KeepAliveInterval_NotNegativeOne.cs" t="Include" />
+          <e p="Channels" t="Include">
+            <e p="ChannelDirectTcpipTest.cs" t="Include" />
+            <e p="ChannelDirectTcpipTest_Dispose_SessionIsConnectedAndChannelIsOpen.cs" t="Include" />
+            <e p="ChannelForwardedTcpipTest_Dispose_SessionIsConnectedAndChannelIsOpen.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_Disposed.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelCloseAndChannelEofReceived_DisposeInEventHandler.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelCloseAndChannelEofReceived_SendChannelCloseMessageFailure.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelCloseAndChannelEofReceived_SendChannelCloseMessageSuccess.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelCloseReceived_SendChannelCloseMessageFailure.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelCloseReceived_SendChannelCloseMessageSuccess.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelEofReceived_SendChannelCloseMessageFailure.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_ChannelEofReceived_SendChannelCloseMessageSuccess.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_NoChannelCloseOrChannelEofReceived.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsConnectedAndChannelIsOpen_NoChannelCloseOrChannelEofReceived_SendChannelEofMessageFailure.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsNotConnectedAndChannelIsOpen_ChannelCloseAndChannelEofReceived.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsNotConnectedAndChannelIsOpen_ChannelCloseReceived.cs" t="Include" />
+            <e p="ChannelSessionTest_Dispose_SessionIsNotConnectedAndChannelIsOpen_NoChannelCloseOrChannelEofReceived.cs" t="Include" />
+            <e p="ChannelSessionTest_Disposed_Closed.cs" t="Include" />
+            <e p="ChannelSessionTest_OnSessionChannelCloseReceived_SessionIsConnectedAndChannelIsOpen.cs" t="Include" />
+            <e p="ChannelSessionTest_Open_ExceptionWaitingOnOpenConfirmation.cs" t="Include" />
+            <e p="ChannelSessionTest_Open_OnOpenFailureReceived_NoRetriesAvailable.cs" t="Include" />
+            <e p="ChannelSessionTest_Open_OnOpenFailureReceived_RetriesAvalable.cs" t="Include" />
+            <e p="ChannelSessionTestBase.cs" t="Include" />
+            <e p="ChannelStub.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsConnectedAndChannelIsNotOpen.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsConnectedAndChannelIsOpen_EofNotReceived.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsConnectedAndChannelIsOpen_EofNotReceived_SendEofInvoked.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsConnectedAndChannelIsOpen_EofReceived.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsConnectedAndChannelIsOpen_EofReceived_DisconnectWaitingForChannelCloseMessage.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsConnectedAndChannelIsOpen_EofReceived_TimeoutWaitingForChannelCloseMessage.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsNotConnectedAndChannelIsNotOpen.cs" t="Include" />
+            <e p="ChannelTest_Dispose_SessionIsNotConnectedAndChannelIsOpen.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelCloseReceived_OnClose_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelCloseReceived_SessionIsConnectedAndChannelIsOpen_DisposeChannelInClosedEventHandler.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelCloseReceived_SessionIsConnectedAndChannelIsOpen_EofNotReceived.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelCloseReceived_SessionIsConnectedAndChannelIsOpen_EofReceived.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelDataReceived_OnData_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelEofReceived_OnEof_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelExtendedDataReceived_OnExtendedData_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelFailureReceived_OnFailure_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelRequestReceived_OnRequest_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelSuccessReceived_OnSuccess_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionChannelWindowAdjustReceived_OnWindowAdjust_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionDisconnected_OnDisconnected_Exception.cs" t="Include" />
+            <e p="ChannelTest_OnSessionDisconnected_SessionIsConnectedAndChannelIsOpen.cs" t="Include" />
+            <e p="ChannelTest_OnSessionErrorOccurred_OnErrorOccurred_Exception.cs" t="Include" />
+            <e p="ChannelTest_SendEof_ChannelIsNotOpen.cs" t="Include" />
+            <e p="ChannelTest_SendEof_ChannelIsOpen.cs" t="Include" />
+            <e p="ChannelTestBase.cs" t="Include" />
+            <e p="ClientChannelStub.cs" t="Include" />
+            <e p="ClientChannelTest_OnSessionChannelOpenConfirmationReceived_OnOpenConfirmation_Exception.cs" t="Include" />
+            <e p="ClientChannelTest_OnSessionChannelOpenFailureReceived_OnOpenFailure_Exception.cs" t="Include" />
+          </e>
+          <e p="CipherInfoTest.cs" t="Include" />
+          <e p="ClientAuthenticationTest.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Failure_MultiList_AllAllowedAuthenticationsHaveReachedPartialSuccessLimit.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Failure_SingleList_AuthenticationMethodFailed.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Failure_SingleList_AuthenticationMethodNotConfigured.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_DifferentAllowedAuthenticationsAfterPartialSuccess.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_PartialSuccessLimitReachedFollowedByFailureInAlternateBranch.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_PartialSuccessLimitReachedFollowedByFailureInAlternateBranch2.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_PartialSuccessLimitReachedFollowedByFailureInSameBranch.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_PartialSuccessLimitReachedFollowedBySuccessInAlternateBranch.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_PartialSuccessLimitReachedFollowedBySuccessInSameBranch.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_PostponePartialAccessAuthenticationMethod.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_SameAllowedAuthenticationsAfterPartialSuccess.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_MultiList_SkipFailedAuthenticationMethod.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_SingleList_SameAllowedAuthenticationAfterPartialSuccess.cs" t="Include" />
+          <e p="ClientAuthenticationTest_Success_SingleList_SameAllowedAuthenticationAfterPartialSuccess_PartialSuccessLimitReached.cs" t="Include" />
+          <e p="ClientAuthenticationTestBase.cs" t="Include" />
+          <e p="CommandAsyncResultTest.cs" t="Include" />
+          <e p="Common" t="Include">
+            <e p="ASCIIEncodingTest.cs" t="Include" />
+            <e p="AsyncResultTest.cs" t="Include" />
+            <e p="AuthenticationBannerEventArgsTest.cs" t="Include" />
+            <e p="AuthenticationPasswordChangeEventArgsTest.cs" t="Include" />
+            <e p="AuthenticationPromptEventArgsTest.cs" t="Include" />
+            <e p="AuthenticationPromptTest.cs" t="Include" />
+            <e p="BigIntegerTest.cs" t="Include" />
+            <e p="ChannelDataEventArgsTest.cs" t="Include" />
+            <e p="ChannelEventArgsTest.cs" t="Include" />
+            <e p="ChannelOpenFailedEventArgsTest.cs" t="Include" />
+            <e p="ChannelRequestEventArgsTest.cs" t="Include" />
+            <e p="CountdownEventTest.cs" t="Include" />
+            <e p="CountdownEventTest_Dispose_NotSet.cs" t="Include" />
+            <e p="CountdownEventTest_Dispose_Set.cs" t="Include" />
+            <e p="DerDataTest.cs" t="Include" />
+            <e p="ExceptionEventArgsTest.cs" t="Include" />
+            <e p="ExtensionsTest_Concat.cs" t="Include" />
+            <e p="ExtensionsTest_IsEqualTo_ByteArray.cs" t="Include" />
+            <e p="ExtensionsTest_Reverse.cs" t="Include" />
+            <e p="ExtensionsTest_Take_Count.cs" t="Include" />
+            <e p="ExtensionsTest_Take_OffsetAndCount.cs" t="Include" />
+            <e p="ExtensionsTest_TrimLeadingZeros.cs" t="Include" />
+            <e p="HostKeyEventArgsTest.cs" t="Include" />
+            <e p="NetConfServerExceptionTest.cs" t="Include" />
+            <e p="ObjectIdentifierTest.cs" t="Include" />
+            <e p="PackTest.cs" t="Include" />
+            <e p="PipeStream_Close_BlockingRead.cs" t="Include" />
+            <e p="PipeStream_Close_BlockingWrite.cs" t="Include" />
+            <e p="PipeStream_Flush_BytesRemainingAfterRead.cs" t="Include" />
+            <e p="PipeStream_Flush_NoBytesRemainingAfterRead.cs" t="Include" />
+            <e p="PipeStreamTest.cs" t="Include" />
+            <e p="PortForwardEventArgsTest.cs" t="Include" />
+            <e p="PosixPathTest_GetFileName.cs" t="Include" />
+            <e p="ProxyExceptionTest.cs" t="Include" />
+            <e p="ScpDownloadEventArgsTest.cs" t="Include" />
+            <e p="ScpExceptionTest.cs" t="Include" />
+            <e p="ScpUploadEventArgsTest.cs" t="Include" />
+            <e p="SemaphoreLightTest.cs" t="Include" />
+            <e p="SftpPathNotFoundExceptionTest.cs" t="Include" />
+            <e p="SftpPermissionDeniedExceptionTest.cs" t="Include" />
+            <e p="ShellDataEventArgsTest.cs" t="Include" />
+            <e p="SshAuthenticationExceptionTest.cs" t="Include" />
+            <e p="SshConnectionExceptionTest.cs" t="Include" />
+            <e p="SshDataTest.cs" t="Include" />
+            <e p="SshExceptionTest.cs" t="Include" />
+            <e p="SshOperationTimeoutExceptionTest.cs" t="Include" />
+            <e p="SshPassPhraseNullOrEmptyExceptionTest.cs" t="Include" />
+          </e>
+          <e p="Compression" t="Include">
+            <e p="CompressorTest.cs" t="Include" />
+            <e p="ZlibOpenSshTest.cs" t="Include" />
+            <e p="ZlibStreamTest.cs" t="Include" />
+            <e p="ZlibTest.cs" t="Include" />
+          </e>
+          <e p="ConnectionInfoTest.cs" t="Include" />
+          <e p="ConnectionInfoTest_Authenticate_Failure.cs" t="Include" />
+          <e p="ConnectionInfoTest_Authenticate_Success.cs" t="Include" />
+          <e p="ExpectActionTest.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Dispose_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Dispose_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Dispose_PortStarted_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Dispose_PortStarted_ChannelNotBound.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Dispose_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_SessionErrorOccurred_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Start_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Start_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Start_PortStarted.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Start_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Start_SessionNotConnected.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Start_SessionNull.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Started_SocketSendShutdownImmediately.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Started_SocketVersionNotSupported.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Stop_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Stop_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Stop_PortStarted_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Stop_PortStarted_ChannelNotBound.cs" t="Include" />
+          <e p="ForwardedPortDynamicTest_Stop_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortLocalTest.cs" t="Include" />
+          <e p="ForwardedPortLocalTest.NET40.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Dispose_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Dispose_PortDisposed_NeverStarted.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Dispose_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Dispose_PortStarted_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Dispose_PortStarted_ChannelNotBound.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Dispose_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Start_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Start_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Start_PortStarted.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Start_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Start_SessionNotConnected.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Start_SessionNull.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Stop_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Stop_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Stop_PortStarted_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Stop_PortStarted_ChannelNotBound.cs" t="Include" />
+          <e p="ForwardedPortLocalTest_Stop_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortRemote.NET40.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Dispose_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Dispose_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Dispose_PortStarted_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Dispose_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Start_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Start_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Start_PortStarted.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Start_PortStopped.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Start_SessionNotConnected.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Start_SessionNull.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Started.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Stop_PortDisposed.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Stop_PortNeverStarted.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Stop_PortStarted_ChannelBound.cs" t="Include" />
+          <e p="ForwardedPortRemoteTest_Stop_PortStopped.cs" t="Include" />
+          <e p="KeyboardInteractiveAuthenticationMethodTest.cs" t="Include" />
+          <e p="KeyboardInteractiveConnectionInfoTest.cs" t="Include" />
+          <e p="MessageEventArgsTest.cs" t="Include" />
+          <e p="Messages" t="Include">
+            <e p="Authentication" t="Include">
+              <e p="BannerMessageTest.cs" t="Include" />
+              <e p="FailureMessageTest.cs" t="Include" />
+              <e p="InformationRequestMessageTest.cs" t="Include" />
+              <e p="InformationResponseMessageTest.cs" t="Include" />
+              <e p="PasswordChangeRequiredMessageTest.cs" t="Include" />
+              <e p="PublicKeyMessageTest.cs" t="Include" />
+              <e p="RequestMessageHostTest.cs" t="Include" />
+              <e p="RequestMessageKeyboardInteractiveTest.cs" t="Include" />
+              <e p="RequestMessageNoneTest.cs" t="Include" />
+              <e p="RequestMessagePasswordTest.cs" t="Include" />
+              <e p="RequestMessagePublicKeyTest.cs" t="Include" />
+              <e p="SuccessMessageTest.cs" t="Include" />
+            </e>
+            <e p="Connection" t="Include">
+              <e p="ChannelCloseMessageTest.cs" t="Include" />
+              <e p="ChannelDataMessageTest.cs" t="Include" />
+              <e p="ChannelEofMessageTest.cs" t="Include" />
+              <e p="ChannelExtendedDataMessageTest.cs" t="Include" />
+              <e p="ChannelFailureMessageTest.cs" t="Include" />
+              <e p="ChannelMessageTest.cs" t="Include" />
+              <e p="ChannelOpen" t="Include">
+                <e p="ChannelOpenMessageTest.cs" t="Include" />
+                <e p="DirectTcpipChannelInfoTest.cs" t="Include" />
+                <e p="ForwardedTcpipChannelInfoTest.cs" t="Include" />
+                <e p="SessionChannelOpenInfoTest.cs" t="Include" />
+                <e p="X11ChannelOpenInfoTest.cs" t="Include" />
+              </e>
+              <e p="ChannelOpenConfirmationMessageTest.cs" t="Include" />
+              <e p="ChannelOpenFailureMessageTest.cs" t="Include" />
+              <e p="ChannelOpenInfoTest.cs" t="Include" />
+              <e p="ChannelRequest" t="Include">
+                <e p="BreakRequestInfoTest.cs" t="Include" />
+                <e p="ChannelRequestMessageTest.cs" t="Include" />
+                <e p="EndOfWriteRequestInfoTest.cs" t="Include" />
+                <e p="EnvironmentVariableRequestInfoTest.cs" t="Include" />
+                <e p="ExecRequestInfoTest.cs" t="Include" />
+                <e p="ExitSignalRequestInfoTest.cs" t="Include" />
+                <e p="ExitStatusRequestInfoTest.cs" t="Include" />
+                <e p="KeepAliveRequestInfoTest.cs" t="Include" />
+                <e p="PseudoTerminalInfoTest.cs" t="Include" />
+                <e p="ShellRequestInfoTest.cs" t="Include" />
+                <e p="SignalRequestInfoTest.cs" t="Include" />
+                <e p="SubsystemRequestInfoTest.cs" t="Include" />
+                <e p="WindowChangeRequestInfoTest.cs" t="Include" />
+                <e p="X11ForwardingRequestInfoTest.cs" t="Include" />
+                <e p="XonXoffRequestInfoTest.cs" t="Include" />
+              </e>
+              <e p="ChannelSuccessMessageTest.cs" t="Include" />
+              <e p="ChannelWindowAdjustMessageTest.cs" t="Include" />
+              <e p="GlobalRequestMessageTest.cs" t="Include" />
+              <e p="RequestFailureMessageTest.cs" t="Include" />
+              <e p="RequestInfoTest.cs" t="Include" />
+              <e p="RequestSuccessMessageTest.cs" t="Include" />
+            </e>
+            <e p="MessageAttributeTest.cs" t="Include" />
+            <e p="MessageTest.cs" t="Include" />
+            <e p="Transport" t="Include">
+              <e p="DebugMessageTest.cs" t="Include" />
+              <e p="DisconnectMessageTest.cs" t="Include" />
+              <e p="IgnoreMessageTest.cs" t="Include" />
+              <e p="KeyExchangeDhGroupExchangeGroupBuilder.cs" t="Include" />
+              <e p="KeyExchangeDhGroupExchangeGroupTest.cs" t="Include" />
+              <e p="KeyExchangeDhGroupExchangeInitTest.cs" t="Include" />
+              <e p="KeyExchangeDhGroupExchangeReplyBuilder.cs" t="Include" />
+              <e p="KeyExchangeDhGroupExchangeReplyTest.cs" t="Include" />
+              <e p="KeyExchangeDhGroupExchangeRequestTest.cs" t="Include" />
+              <e p="KeyExchangeDhInitMessageTest.cs" t="Include" />
+              <e p="KeyExchangeDhReplyMessageTest.cs" t="Include" />
+              <e p="KeyExchangeInitMessageTest.cs" t="Include" />
+              <e p="NewKeysMessageTest.cs" t="Include" />
+              <e p="ServiceAcceptMessageTest.cs" t="Include" />
+              <e p="ServiceRequestMessageTest.cs" t="Include" />
+              <e p="UnimplementedMessageTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="NetConfClientTest.cs" t="Include" />
+          <e p="NetConfClientTest_Connect_NetConfSessionConnectFailure.cs" t="Include" />
+          <e p="NetConfClientTest_Dispose_Connected.cs" t="Include" />
+          <e p="NetConfClientTest_Dispose_Disconnected.cs" t="Include" />
+          <e p="NetConfClientTest_Dispose_Disposed.cs" t="Include" />
+          <e p="NetConfClientTest_Finalize_Connected.cs" t="Include" />
+          <e p="NoneAuthenticationMethodTest.cs" t="Include" />
+          <e p="PasswordAuthenticationMethodTest.cs" t="Include" />
+          <e p="PasswordConnectionInfoTest.cs" t="Include" />
+          <e p="PipeStreamTest_Dispose.cs" t="Include" />
+          <e p="PrivateKeyAuthenticationMethodTest.cs" t="Include" />
+          <e p="PrivateKeyConnectionInfoTest.cs" t="Include" />
+          <e p="PrivateKeyFileTest.cs" t="Include" />
+          <e p="RemotePathDoubleQuoteTransformationTest.cs" t="Include" />
+          <e p="RemotePathShellQuoteTransformationTest.cs" t="Include" />
+          <e p="ScpClientTest.cs" t="Include" />
+          <e p="ScpClientTest.NET40.cs" t="Include" />
+          <e p="ScpClientTest_Download_PathAndDirectoryInfo_SendExecRequestReturnsFalse.cs" t="Include" />
+          <e p="ScpClientTest_Download_PathAndFileInfo_SendExecRequestReturnsFalse.cs" t="Include" />
+          <e p="ScpClientTest_Download_PathAndStream_SendExecRequestReturnsFalse.cs" t="Include" />
+          <e p="ScpClientTest_Upload_DirectoryInfoAndPath_SendExecRequestReturnsFalse.cs" t="Include" />
+          <e p="ScpClientTest_Upload_FileInfoAndPath_SendExecRequestReturnsFalse.cs" t="Include" />
+          <e p="ScpClientTest_Upload_FileInfoAndPath_Success.cs" t="Include" />
+          <e p="ScpClientTest_Upload_StreamAndPath_SendExecRequestReturnsFalse.cs" t="Include" />
+          <e p="ScpClientTestBase.cs" t="Include" />
+          <e p="Security" t="Include">
+            <e p="AlgorithmTest.cs" t="Include" />
+            <e p="CertificateHostAlgorithmTest.cs" t="Include" />
+            <e p="Cryptography" t="Include">
+              <e p="BlockCipherTest.cs" t="Include" />
+              <e p="CipherDigitalSignatureTest.cs" t="Include" />
+              <e p="Ciphers" t="Include">
+                <e p="AesCipherTest.cs" t="Include" />
+                <e p="Arc4CipherTest.cs" t="Include" />
+                <e p="BlowfishCipherTest.cs" t="Include" />
+                <e p="CastCipherTest.cs" t="Include" />
+                <e p="CipherModeTest.cs" t="Include" />
+                <e p="CipherPaddingTest.cs" t="Include" />
+                <e p="DesCipherTest.cs" t="Include" />
+                <e p="Modes" t="Include">
+                  <e p="CbcCipherModeTest.cs" t="Include" />
+                  <e p="CfbCipherModeTest.cs" t="Include" />
+                  <e p="CtrCipherModeTest.cs" t="Include" />
+                  <e p="OfbCipherModeTest.cs" t="Include" />
+                </e>
+                <e p="Paddings" t="Include">
+                  <e p="PKCS5PaddingTest.cs" t="Include" />
+                  <e p="PKCS7PaddingTest.cs" t="Include" />
+                </e>
+                <e p="RsaCipherTest.cs" t="Include" />
+                <e p="SerpentCipherTest.cs" t="Include" />
+                <e p="TripleDesCipherTest.cs" t="Include" />
+                <e p="TwofishCipherTest.cs" t="Include" />
+              </e>
+              <e p="CipherTest.cs" t="Include" />
+              <e p="DigitalSignatureTest.cs" t="Include" />
+              <e p="DsaDigitalSignatureTest.cs" t="Include" />
+              <e p="DsaKeyTest.cs" t="Include" />
+              <e p="HMacTest.cs" t="Include" />
+              <e p="RsaDigitalSignatureTest.cs" t="Include" />
+              <e p="RsaKeyTest.cs" t="Include" />
+              <e p="SymmetricCipherTest.cs" t="Include" />
+            </e>
+            <e p="HostAlgorithmTest.cs" t="Include" />
+            <e p="KeyExchangeDiffieHellmanGroup14Sha1Test.cs" t="Include" />
+            <e p="KeyExchangeDiffieHellmanGroup1Sha1Test.cs" t="Include" />
+            <e p="KeyExchangeDiffieHellmanGroupExchangeSha1Test.cs" t="Include" />
+            <e p="KeyExchangeDiffieHellmanGroupExchangeSha256Test.cs" t="Include" />
+            <e p="KeyExchangeDiffieHellmanGroupSha1Test.cs" t="Include" />
+            <e p="KeyExchangeDiffieHellmanTest.cs" t="Include" />
+            <e p="KeyExchangeTest.cs" t="Include" />
+            <e p="KeyHostAlgorithmTest.cs" t="Include" />
+            <e p="KeyTest.cs" t="Include" />
+          </e>
+          <e p="ServiceFactoryTest_CreateClientAuthentication.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_EndLStatThrowsSshException.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsAlmostSixTimesGreaterThanChunkSize.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsEqualToChunkSize.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsExactlyFiveTimesGreaterThanChunkSize.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsLessThanChunkSize.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsLittleMoreThanFiveTimesGreaterThanChunkSize.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsMoreThanTenTimesGreaterThanChunkSize.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateSftpFileReader_FileSizeIsZero.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateShellStream_ChannelOpenThrowsException.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateShellStream_SendPseudoTerminalRequestReturnsFalse.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateShellStream_SendPseudoTerminalRequestThrowsException.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateShellStream_SendShellRequestReturnsFalse.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateShellStream_SendShellRequestThrowsException.cs" t="Include" />
+          <e p="ServiceFactoryTest_CreateShellStream_Success.cs" t="Include" />
+          <e p="SessionTest.cs" t="Include" />
+          <e p="SessionTest.HttpProxy.cs" t="Include" />
+          <e p="SessionTest_Connected.cs" t="Include" />
+          <e p="SessionTest_Connected_ConnectionReset.cs" t="Include" />
+          <e p="SessionTest_Connected_Disconnect.cs" t="Include" />
+          <e p="SessionTest_Connected_GlobalRequestMessageAfterAuthenticationRace.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerAndClientDisconnectRace.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerSendsBadPacket.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerSendsDisconnectMessage.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerSendsDisconnectMessageAndShutsDownSocket.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerSendsUnsupportedMessageType.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerShutsDownSendAfterSendingIncompletePacket.cs" t="Include" />
+          <e p="SessionTest_Connected_ServerShutsDownSocket.cs" t="Include" />
+          <e p="SessionTest_ConnectedBase.cs" t="Include" />
+          <e p="SessionTest_NotConnected.cs" t="Include" />
+          <e p="SessionTest_SocketConnected_BadPacketAndDispose.cs" t="Include" />
+          <e p="Sftp" t="Include">
+            <e p="Requests" t="Include">
+              <e p="ExtendedRequests" t="Include">
+                <e p="FStatVfsRequestTest.cs" t="Include" />
+                <e p="HardLinkRequestTest.cs" t="Include" />
+                <e p="PosixRenameRequestTest.cs" t="Include" />
+                <e p="StatVfsRequestTest.cs" t="Include" />
+              </e>
+              <e p="SftpBlockRequestTest.cs" t="Include" />
+              <e p="SftpCloseRequestTest.cs" t="Include" />
+              <e p="SftpFSetStatRequestTest.cs" t="Include" />
+              <e p="SftpFStatRequestTest.cs" t="Include" />
+              <e p="SftpInitRequestTest.cs" t="Include" />
+              <e p="SftpLinkRequestTest.cs" t="Include" />
+              <e p="SftpLStatRequestTest.cs" t="Include" />
+              <e p="SftpMkDirRequestTest.cs" t="Include" />
+              <e p="SftpOpenDirRequestTest.cs" t="Include" />
+              <e p="SftpOpenRequestTest.cs" t="Include" />
+              <e p="SftpReadDirRequestTest.cs" t="Include" />
+              <e p="SftpReadLinkRequestTest.cs" t="Include" />
+              <e p="SftpReadRequestTest.cs" t="Include" />
+              <e p="SftpRealPathRequestTest.cs" t="Include" />
+              <e p="SftpRemoveRequestTest.cs" t="Include" />
+              <e p="SftpRenameRequestTest.cs" t="Include" />
+              <e p="SftpRmDirRequestTest.cs" t="Include" />
+              <e p="SftpSetStatRequestTest.cs" t="Include" />
+              <e p="SftpStatRequestTest.cs" t="Include" />
+              <e p="SftpSymLinkRequestTest.cs" t="Include" />
+              <e p="SftpUnblockRequestTest.cs" t="Include" />
+              <e p="SftpWriteRequestTest.cs" t="Include" />
+            </e>
+            <e p="Responses" t="Include">
+              <e p="ExtendedReplies" t="Include">
+                <e p="StatVfsReplyInfoTest.cs" t="Include" />
+              </e>
+              <e p="SftpAttrsResponseTest.cs" t="Include" />
+              <e p="SftpDataResponseTest.cs" t="Include" />
+              <e p="SftpExtendedReplyResponseTest.cs" t="Include" />
+              <e p="SftpHandleResponseTest.cs" t="Include" />
+              <e p="SftpNameResponseTest.cs" t="Include" />
+              <e p="SftpStatusResponseTest.cs" t="Include" />
+              <e p="SftpVersionResponseTest.cs" t="Include" />
+            </e>
+            <e p="SftpDataResponseBuilder.cs" t="Include" />
+            <e p="SftpDownloadAsyncResultTest.cs" t="Include" />
+            <e p="SftpFileAttributesTest.cs" t="Include" />
+            <e p="SftpFileReaderTest_Dispose_SftpSessionIsNotOpen.cs" t="Include" />
+            <e p="SftpFileReaderTest_Dispose_SftpSessionIsOpen_BeginCloseThrowsException.cs" t="Include" />
+            <e p="SftpFileReaderTest_Dispose_SftpSessionIsOpen_EndCloseThrowsException.cs" t="Include" />
+            <e p="SftpFileReaderTest_DisposeShouldUnblockReadAndReadAhead.cs" t="Include" />
+            <e p="SftpFileReaderTest_LastChunkBeforeEofIsComplete.cs" t="Include" />
+            <e p="SftpFileReaderTest_LastChunkBeforeEofIsPartial.cs" t="Include" />
+            <e p="SftpFileReaderTest_PreviousChunkIsIncompleteAndEofIsNotReached.cs" t="Include" />
+            <e p="SftpFileReaderTest_PreviousChunkIsIncompleteAndEofIsReached.cs" t="Include" />
+            <e p="SftpFileReaderTest_Read_ReadAheadExceptionInWaitOnHandle_ChunkAvailable.cs" t="Include" />
+            <e p="SftpFileReaderTest_Read_ReadAheadExceptionInWaitOnHandle_NoChunkAvailable.cs" t="Include" />
+            <e p="SftpFileReaderTest_Read_ReahAheadExceptionInBeginRead.cs" t="Include" />
+            <e p="SftpFileReaderTest_ReadAheadBeginReadException.cs" t="Include" />
+            <e p="SftpFileReaderTest_ReadAheadEndInvokeException_DiscardsFurtherReadAheads.cs" t="Include" />
+            <e p="SftpFileReaderTest_ReadAheadEndInvokeException_PreventsFurtherReadAheads.cs" t="Include" />
+            <e p="SftpFileReaderTest_ReadBackBeginReadException.cs" t="Include" />
+            <e p="SftpFileReaderTest_ReadBackEndInvokeException.cs" t="Include" />
+            <e p="SftpFileReaderTestBase.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanRead_Closed_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanRead_Closed_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanRead_Closed_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanRead_Disposed_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanRead_Disposed_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanRead_Disposed_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanWrite_Closed_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanWrite_Closed_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanWrite_Closed_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanWrite_Disposed_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanWrite_Disposed_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_CanWrite_Disposed_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Close_Closed.cs" t="Include" />
+            <e p="SftpFileStreamTest_Close_Disposed.cs" t="Include" />
+            <e p="SftpFileStreamTest_Close_SessionNotOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_Close_SessionOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileAccessInvalid.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeAppend_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeAppend_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeAppend_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreate_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreate_FileAccessReadWrite_FileDoesNotExist.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreate_FileAccessReadWrite_FileExists.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreate_FileAccessWrite_FileDoesNotExist.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreate_FileAccessWrite_FileExists.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreateNew_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreateNew_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeCreateNew_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeInvalid.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeOpen_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeOpen_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeOpen_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeOpenOrCreate_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeOpenOrCreate_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeOpenOrCreate_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeTruncate_FileAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeTruncate_FileAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Ctor_FileModeTruncate_FileAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Dispose_Closed.cs" t="Include" />
+            <e p="SftpFileStreamTest_Dispose_Disposed.cs" t="Include" />
+            <e p="SftpFileStreamTest_Dispose_SessionNotOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_Dispose_SessionOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_Finalize_SessionOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_Flush_ReadMode_DataInBuffer_NotReadFromBuffer.cs" t="Include" />
+            <e p="SftpFileStreamTest_Flush_ReadMode_DataInBuffer_ReadFromBuffer.cs" t="Include" />
+            <e p="SftpFileStreamTest_Flush_ReadMode_NoDataInBuffer.cs" t="Include" />
+            <e p="SftpFileStreamTest_Flush_SessionNotOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_Flush_WriteMode_DataInBuffer.cs" t="Include" />
+            <e p="SftpFileStreamTest_Flush_WriteMode_NoDataInBuffer.cs" t="Include" />
+            <e p="SftpFileStreamTest_Read_ReadMode_NoDataInReaderBufferAndReadLessBytesFromServerThanCountAndEqualToBufferSize.cs" t="Include" />
+            <e p="SftpFileStreamTest_Read_ReadMode_NoDataInReaderBufferAndReadLessBytesFromServerThanCountAndLessThanBufferSize.cs" t="Include" />
+            <e p="SftpFileStreamTest_Read_ReadMode_NoDataInReaderBufferAndReadMoreBytesFromServerThanCount.cs" t="Include" />
+            <e p="SftpFileStreamTest_ReadByte_ReadMode_NoDataInWriteBufferAndNoDataInReadBuffer_Eof.cs" t="Include" />
+            <e p="SftpFileStreamTest_ReadByte_ReadMode_NoDataInWriteBufferAndNoDataInReadBuffer_LessDataThanReadBufferSizeAvailable.cs" t="Include" />
+            <e p="SftpFileStreamTest_Seek_PositionedAtBeginningOfStream_OriginBeginAndOffsetNegative.cs" t="Include" />
+            <e p="SftpFileStreamTest_Seek_PositionedAtBeginningOfStream_OriginBeginAndOffsetPositive.cs" t="Include" />
+            <e p="SftpFileStreamTest_Seek_PositionedAtBeginningOfStream_OriginBeginAndOffsetZero.cs" t="Include" />
+            <e p="SftpFileStreamTest_Seek_PositionedAtMiddleOfStream_OriginBeginAndOffsetZero_NoBuffering.cs" t="Include" />
+            <e p="SftpFileStreamTest_Seek_PositionedAtMiddleOfStream_OriginBeginAndOffsetZero_ReadBuffer.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_Closed.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_DataInReadBuffer_NewLengthGreatherThanPosition.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_DataInReadBuffer_NewLengthLessThanPosition.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_DataInWriteBuffer_NewLengthGreatherThanPosition.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_DataInWriteBuffer_NewLengthLessThanPosition.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_Disposed.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_SessionNotOpen.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_SessionOpen_FIleAccessRead.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_SessionOpen_FIleAccessReadWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_SetLength_SessionOpen_FIleAccessWrite.cs" t="Include" />
+            <e p="SftpFileStreamTest_Write_SessionOpen_CountGreatherThanTwoTimesTheWriteBufferSize.cs" t="Include" />
+            <e p="SftpFileStreamTestBase.cs" t="Include" />
+            <e p="SftpFileSystemInformationTest.cs" t="Include" />
+            <e p="SftpFileTest.cs" t="Include" />
+            <e p="SftpHandleResponseBuilder.cs" t="Include" />
+            <e p="SftpInitRequestBuilder.cs" t="Include" />
+            <e p="SftpListDirectoryAsyncResultTest.cs" t="Include" />
+            <e p="SftpNameResponseBuilder.cs" t="Include" />
+            <e p="SftpOpenRequestBuilder.cs" t="Include" />
+            <e p="SftpReadRequestBuilder.cs" t="Include" />
+            <e p="SftpRealPathRequestBuilder.cs" t="Include" />
+            <e p="SftpSessionTest_Connected_RequestRead.cs" t="Include" />
+            <e p="SftpSessionTest_Connected_RequestStatVfs.cs" t="Include" />
+            <e p="SftpSessionTest_DataReceived_MultipleSftpMessagesInSingleSshDataMessage.cs" t="Include" />
+            <e p="SftpSessionTest_DataReceived_MultipleSftpMessagesSplitOverMultipleSshDataMessages.cs" t="Include" />
+            <e p="SftpSessionTest_DataReceived_SingleSftpMessageInSshDataMessage.cs" t="Include" />
+            <e p="SftpStatVfsRequestBuilder.cs" t="Include" />
+            <e p="SftpStatVfsResponseBuilder.cs" t="Include" />
+            <e p="SftpSynchronizeDirectoriesAsyncResultTest.cs" t="Include" />
+            <e p="SftpUploadAsyncResultTest.cs" t="Include" />
+            <e p="SftpVersionResponseBuilder.cs" t="Include" />
+          </e>
+          <e p="SftpClientTest.ChangeDirectory.cs" t="Include" />
+          <e p="SftpClientTest.Connect.cs" t="Include" />
+          <e p="SftpClientTest.CreateDirectory.cs" t="Include" />
+          <e p="SftpClientTest.cs" t="Include" />
+          <e p="SftpClientTest.DeleteDirectory.cs" t="Include" />
+          <e p="SftpClientTest.DeleteFile.cs" t="Include" />
+          <e p="SftpClientTest.Download.cs" t="Include" />
+          <e p="SftpClientTest.ListDirectory.cs" t="Include" />
+          <e p="SftpClientTest.RenameFile.cs" t="Include" />
+          <e p="SftpClientTest.SynchronizeDirectories.cs" t="Include" />
+          <e p="SftpClientTest.Upload.cs" t="Include" />
+          <e p="SftpClientTest_Connect_SftpSessionConnectFailure.cs" t="Include" />
+          <e p="SftpClientTest_Dispose_Connected.cs" t="Include" />
+          <e p="SftpClientTest_Dispose_Disconnected.cs" t="Include" />
+          <e p="SftpClientTest_Dispose_Disposed.cs" t="Include" />
+          <e p="SftpClientTest_Finalize_Connected.cs" t="Include" />
+          <e p="ShellStreamTest.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferEmptyAndWriteLessBytesThanBufferSize.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferEmptyAndWriteMoreBytesThanBufferSize.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferEmptyAndWriteNumberOfBytesEqualToBufferSize.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferEmptyAndWriteZeroBytes.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferFullAndWriteLessBytesThanBufferSize.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferFullAndWriteZeroBytes.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferNotEmptyAndWriteLessBytesThanBufferCanContain.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferNotEmptyAndWriteMoreBytesThanBufferCanContain.cs" t="Include" />
+          <e p="ShellStreamTest_Write_WriteBufferNotEmptyAndWriteZeroBytes.cs" t="Include" />
+          <e p="ShellTestTest.cs" t="Include" />
+          <e p="SshClientTest.cs" t="Include" />
+          <e p="SshClientTest_CreateShellStream_TerminalNameAndColumnsAndRowsAndWidthAndHeightAndBufferSize_Connected.cs" t="Include" />
+          <e p="SshClientTest_CreateShellStream_TerminalNameAndColumnsAndRowsAndWidthAndHeightAndBufferSizeAndTerminalModes_Connected.cs" t="Include" />
+          <e p="SshClientTest_Disconnect_ForwardedPortStarted.cs" t="Include" />
+          <e p="SshClientTest_Dispose_Connected.cs" t="Include" />
+          <e p="SshClientTest_Dispose_Disconnected.cs" t="Include" />
+          <e p="SshClientTest_Dispose_Disposed.cs" t="Include" />
+          <e p="SshClientTest_Dispose_ForwardedPortStarted.cs" t="Include" />
+          <e p="SshCommandTest.cs" t="Include" />
+          <e p="SshCommandTest.NET40.cs" t="Include" />
+          <e p="SshCommandTest_BeginExecute_EndExecuteInvokedOnAsyncResultFromPreviousInvocation.cs" t="Include" />
+          <e p="SshCommandTest_BeginExecute_EndExecuteNotInvokedOnAsyncResultFromPreviousInvocation.cs" t="Include" />
+          <e p="SshCommandTest_Dispose.cs" t="Include" />
+          <e p="SshCommandTest_EndExecute.cs" t="Include" />
+          <e p="SshCommandTest_EndExecute_AsyncResultFromOtherInstance.cs" t="Include" />
+          <e p="SshCommandTest_EndExecute_AsyncResultIsNull.cs" t="Include" />
+          <e p="SshCommandTest_EndExecute_ChannelOpen.cs" t="Include" />
+          <e p="SubsystemSession_Connect_Connected.cs" t="Include" />
+          <e p="SubsystemSession_Connect_Disconnected.cs" t="Include" />
+          <e p="SubsystemSession_Connect_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_Connect_NeverConnected.cs" t="Include" />
+          <e p="SubsystemSession_Connect_SendSubsystemRequestFails.cs" t="Include" />
+          <e p="SubsystemSession_Disconnect_Connected.cs" t="Include" />
+          <e p="SubsystemSession_Disconnect_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_Disconnect_NeverConnected.cs" t="Include" />
+          <e p="SubsystemSession_Dispose_Connected.cs" t="Include" />
+          <e p="SubsystemSession_Dispose_Disconnected.cs" t="Include" />
+          <e p="SubsystemSession_Dispose_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_Dispose_NeverConnected.cs" t="Include" />
+          <e p="SubsystemSession_OnChannelDataReceived_Connected.cs" t="Include" />
+          <e p="SubsystemSession_OnChannelDataReceived_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_OnChannelDataReceived_OnDataReceived_Exception.cs" t="Include" />
+          <e p="SubsystemSession_OnChannelException_Connected.cs" t="Include" />
+          <e p="SubsystemSession_OnChannelException_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_OnSessionDisconnected_Connected.cs" t="Include" />
+          <e p="SubsystemSession_OnSessionDisconnected_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_OnSessionErrorOccurred_Connected.cs" t="Include" />
+          <e p="SubsystemSession_OnSessionErrorOccurred_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_SendData_Connected.cs" t="Include" />
+          <e p="SubsystemSession_SendData_Disconnected.cs" t="Include" />
+          <e p="SubsystemSession_SendData_Disposed.cs" t="Include" />
+          <e p="SubsystemSession_SendData_NeverConnected.cs" t="Include" />
+          <e p="SubsystemSessionStub.cs" t="Include" />
+        </e>
+        <e p="Common" t="Include">
+          <e p="ArrayBuilder.cs" t="Include" />
+          <e p="AsyncSocketListener.cs" t="Include" />
+          <e p="DictionaryAssert.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="HttpProxyStub.cs" t="Include" />
+          <e p="HttpRequest.cs" t="Include" />
+          <e p="SftpFileAttributesBuilder.cs" t="Include" />
+          <e p="TestBase.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="Key.RSA.Encrypted.Aes.128.CBC.12345.txt" t="Include" />
+          <e p="Key.RSA.Encrypted.Aes.192.CBC.12345.txt" t="Include" />
+          <e p="Key.RSA.Encrypted.Aes.256.CBC.12345.txt" t="Include" />
+          <e p="Key.RSA.Encrypted.Des.CBC.12345.txt" t="Include" />
+          <e p="Key.RSA.Encrypted.Des.Ede3.CBC.12345.txt" t="Include" />
+          <e p="Key.RSA.Encrypted.Des.Ede3.CFB.1234567890.txt" t="Include" />
+          <e p="Key.RSA.txt" t="Include" />
+          <e p="Key.SSH2.DSA.Encrypted.Des.CBC.12345.txt" t="Include" />
+          <e p="Key.SSH2.DSA.txt" t="Include" />
+          <e p="Key.SSH2.RSA.Encrypted.Des.CBC.12345.txt" t="Include" />
+          <e p="Key.SSH2.RSA.txt" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="Renci.SshNet.Tests.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Renci.SshNet.VS2017.sln" t="IncludeFlat" />
+    </e>
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\Abstractions\CryptoAbstraction_GenerateRandom.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\Abstractions\DnsAbstraction_GetHostAddresses.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\Abstractions\FileSystemAbstraction_EnumerateFiles.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\Abstractions\ThreadAbstraction_ExecuteThread.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\ForwardedPortStatusTest_Started.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\ForwardedPortStatusTest_Starting.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\ForwardedPortStatusTest_Stopped.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\ForwardedPortStatusTest_Stopping.cs" t="Include" />
+    <e p="C:\Development\Octopus\SSH.NET\test\Renci.SshNet.Shared.Tests\SshMessageFactoryTest.cs" t="Include" />
+    <e p="C:\Users\Robert\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Robert\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_Renci.SshNet.VS2017.-182462873.00" t="ExcludeRecursive" />
+  </component>
+</project>

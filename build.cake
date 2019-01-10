@@ -98,20 +98,8 @@ Task("Pack")
     .IsDependentOn("Stage")
     .Does(() =>
     {
-        NuGetPack(new NuGetPackSettings
+        NuGetPack("./build/nuget/SSH.NET.nuspec", new NuGetPackSettings
             {
-                Id                      = "SSH.NET",
-                Version                 = nugetVersion,
-                Title                   = "SSH.NET",
-                Authors                 = new[] {"Renci", "Octopus Deploy"},
-                Owners                  = new[] {"olegkap", "drieseng"},
-                Description             = "SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism and with broad framework support.",
-                Summary                 = "A Secure Shell (SSH) library for .NET, optimized for parallelism.",
-                ProjectUrl              = new Uri("https://github.com/OctopusDeploy/SSH.NET/"),
-                LicenseUrl              = new Uri("https://github.com/OctopusDeploy/SSH.NET/blob/master/LICENSE"),
-                Copyright               = "2012-2017, RENCI",
-                Tags                    = new [] {"ssh", "scp", "sftp"},
-                RequireLicenseAcceptance= false,
                 Symbols                 = false,
                 NoPackageAnalysis       = true,
                 Files                   = new [] {
