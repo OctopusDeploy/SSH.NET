@@ -77,11 +77,15 @@ Task("Build")
         MSBuild("./src/Renci.SshNet/Renci.SshNet.csproj", settings => settings
 			.SetConfiguration(configuration)
             .WithProperty("Version", nugetVersion)
+			.WithProperty("PackageVersion", nugetVersion)
+			.WithProperty("FileVersion", nugetVersion)
 			.WithTarget("Build"));
 			
 		MSBuild("./src/Renci.SshNet.NETCore/Renci.SshNet.NETCore.csproj", settings => settings
 			.SetConfiguration(configuration)
             .WithProperty("Version", nugetVersion)
+			.WithProperty("PackageVersion", nugetVersion)
+			.WithProperty("FileVersion", nugetVersion)
 			.WithTarget("Build"));
     });
 
