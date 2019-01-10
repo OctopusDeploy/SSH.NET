@@ -16,6 +16,7 @@ packages/
 
 # Visual Studio 2015 cache/options directory
 src/.vs/
+src/.idea/
 
 # Expanded/resolved project.json files
 project.lock.json
@@ -27,3 +28,4 @@ tools/*
 
 # Include the cake packages.config
 !tools/packages.config
+
