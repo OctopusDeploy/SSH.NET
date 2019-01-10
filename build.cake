@@ -100,6 +100,7 @@ Task("Pack")
     {
         NuGetPack("./build/nuget/SSH.NET.nuspec", new NuGetPackSettings
             {
+				Version                 = nugetVersion,
                 Symbols                 = false,
                 NoPackageAnalysis       = true,
                 Files                   = new [] {
