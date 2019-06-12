@@ -488,8 +488,8 @@ namespace Renci.SshNet
             var session = Session;
             if (session != null)
             {
-                Session = null;
                 DisposeSession(session);
+                Session = null;
             }
         }
 
